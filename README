@@ -1,0 +1,9 @@
+This library aims to be a port of LessPHP for the popular Minify Library.
+It is not a fork of Minify itself as the original project is currently using SVN
+on Google Code.
+
+Original LessPHP project: http://leafo.net/lessphp/
+Original Minify project: http://code.google.com/p/minify/
+
+My personal website where I'll track down tutorials and major changes:
+ http://marco-pivetta.com/
