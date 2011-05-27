@@ -1,19 +1,15 @@
 <?php
-/**
- * Class Minify_Source  
- * @package Minify
- */
 
 /** 
- * A content source to be minified by Minify. 
+ * A LessCss content source to be minified by Minify. 
  * 
  * This allows per-source minification options and the mixing of files with
  * content from other sources.
  * 
- * @package Minify
+ * @package LessCss
  * @author Stephen Clay <steve@mrclay.org>
  */
-class Minify_Source {
+class LessCss_Source {
 
     /**
      * @var int time of last modification
@@ -65,8 +61,6 @@ class Minify_Source {
             case 'js'   : $this->contentType = 'application/x-javascript';
                           break;
             case 'css'  : $this->contentType = 'text/css';
-                          break;
-            case 'less' : $this->contentType = 'text/less';
                           break;
             case 'htm'  : // fallthrough
             case 'html' : $this->contentType = 'text/html';

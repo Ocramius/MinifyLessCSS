@@ -72,7 +72,7 @@ class Minify_Controller_MinApp extends Minify_Controller_Base {
             // respond to. Ideally there should be only one way to reference a file.
             if (// verify at least one file, files are single comma separated, 
                 // and are all same extension
-                ! preg_match('/^[^,]+\\.(css|js)(?:,[^,]+\\.\\1)*$/', $_GET['f'])
+                ! preg_match('/^[^,]+\\.(css|js|less)(?:,[^,]+\\.\\1)*$/', $_GET['f'])
                 // no "//"
                 || strpos($_GET['f'], '//') !== false
                 // no "\"
