@@ -6,4 +6,8 @@ Original LessPHP project: http://leafo.net/lessphp/
 Original Minify project: http://code.google.com/p/minify/
 
 My personal website where I'll track down tutorials and major changes:
- http://marco-pivetta.com/
+  http://marco-pivetta.com/
+
+And here's a short tutorial about the basic functionalities and a sample setup
+to test this project:
+  http://marco-pivetta.com/lessphp-minify-integration-lesscss-development/
